@@ -18,7 +18,7 @@ public class MYSQLDBTest {
 
     @BeforeEach
     void setUp() {
-        open("http://localhost:9999");
+        open("http://localhost:7777");
     }
 
     @AfterEach
