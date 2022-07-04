@@ -11,7 +11,7 @@ import static java.sql.DriverManager.getConnection;
 public class DBHelper {
     private final static QueryRunner queryRunner = new QueryRunner();
     private final static Connection conn = connection();
-    private static final String url = "jdbc:mysql://localhost:3306/database";
+    private static final String url = "jdbc:mysql://localhost:3207/database";
     private static final String user = "user";
     private static final String password = "pass";
     static String code;
